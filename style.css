@@ -82,7 +82,7 @@ main {
     padding: 10px;
 }
 
-/* @media screen and (max-width:780px){
+@media screen and (max-width:780px){
     .container{
         width: 100%;
     }
@@ -112,7 +112,7 @@ main {
         color: crimson;
         background-color:black;
     }
-} */
+}
 .wraper {
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
