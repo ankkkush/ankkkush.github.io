@@ -23,9 +23,9 @@
 
 .menu {
     text-align: center;
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    right: 0; */
+    right: 0;
 }
 
 .menu li {
