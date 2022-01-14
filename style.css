@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    width: 100vw;
+    width: 1000vw;
     position: fixed;
     line-height: 50px;
     background-color: brown;
@@ -12,9 +12,9 @@
 
 .logo {
     position: fixed;
-    left: 0;
     padding: 10px;
     font-size: 32px;
+    background-color: salmon;
 }
 .home{
     text-align: center;
@@ -26,6 +26,7 @@
     position: fixed;
     top: 0;
     right: 0;
+    background-color: salmon;
 }
 
 .menu li {
@@ -44,7 +45,7 @@
 
 .logo a {
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 .main {
