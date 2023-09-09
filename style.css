@@ -59,6 +59,7 @@
     padding: 20%;
     padding-top: 10%;
     padding-bottom: 10%;
+    font-size: large;
 }
 /* Add this CSS rule to create a circular clipping mask */
 .image-container {
