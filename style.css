@@ -47,6 +47,7 @@
 .content{background-color: black;
     color: white; /* Set text color to white for visibility */
     padding:16px;
+    background-size: 100%;
     margin-left: -10px;
     margin-right: -10px;
     width: 100%;
@@ -55,6 +56,40 @@
     text-align: center;
 }
 .content p{
+    text-align: center;
+    padding: 20%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-size: large;
+}
+.About{
+    background-color: white;
+    padding: 16px;
+    margin-left: -10px;
+    background-size: 100%;
+    margin: right -10px;;
+    width:70%;
+}
+.About h2{ 
+    text-align: center;
+}
+.About{text-align: center;
+    padding: 20%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-size: large;
+}
+.Contact{background-color: black;
+    color: white; /* Set text color to white for visibility */
+    padding:16px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-size: 100%;
+    width: 100%;
+}
+.Contact h2{
+    text-align: center;}
+.Contact p{
     text-align: center;
     padding: 20%;
     padding-top: 5%;
