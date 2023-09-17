@@ -14,3 +14,6 @@ window.addEventListener('click', (event) => {
         }
     }
 });
+document.getElementById('dropbtn').addEventListener('click', function() {
+    alert('Button Clicked!');
+});
