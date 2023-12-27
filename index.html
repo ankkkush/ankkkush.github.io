@@ -1,45 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div class="navbar">
-      <a href="#">Ankush Attri</a>
-        <div class="dropdown">
-          <button class="dropbtn"><img src = menu.png></button>
-          <div class="dropdown-content">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </div>
-        </div>
-    </div>
-    <div id="Home" class="content">
-      <h2>Welcome to Ankush Attri's Portfolio</h2>
-      <!--div class="image-container">
-        <img src="sam.JPG" alt="Your Image" />
-      </div-->
-      <p>
-        I am a Computer Engineering student with a passion for coding and
-        problem- solving. Explore my portfolio to see my projects and skills in
-        web development, programming, database management, machine learning, and
-        UI/UX design
-      </p>
-    </div>
 
-    <div id="About" class="About">
-      <h2>About Us</h2>
-      <p>I am a computer engineering student currently studying at DR. D. Y. Patil Institute of Technology. I have a strong knowledge of Python, C++, HTML, CSS, and SQL. I am passionate about coding and constantly learning new technologies.</p>
-    </div>
+<head>
+  <meta http-equiv="Content-Type" content="text/html" ; charset="utf=8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drish | Portfolio</title>
+  <meta name="title" content="Drish | Portfolio">
+  <meta name="Description" content="Hey, I'm Drish. I am a 3rd-year student at SRM Institute of Science and Technology in India, pursuing B.Tech in Computer Science Engineering." />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://drish-xd.is-a.dev/">
+  <meta property="og:title" content="Drish | Portfolio">
+  <meta property="og:description" content="Hey, I'm Drish. I am a 3rd-year student at SRM Institute of Science and Technology in India, pursuing B.Tech in Computer Science Engineering.">
+  <meta property="og:image" content="https://drish-xd.is-a.dev/Assets/Images/Screenshot.png">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://drish-xd.is-a.dev/">
+  <meta property="twitter:title" content="Drish | Portfolio">
+  <meta property="twitter:description" content="Hey, I'm Drish. I am a 3rd-year student at SRM Institute of Science and Technology in India, pursuing B.Tech in Computer Science Engineering.">
+  <meta property="twitter:image" content="https://drish-xd.is-a.dev/Assets/Images/Screenshot.png">
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://drish-xd.is-a.dev/" />
+  <link rel="shortcut icon" type="image/x-icon" href="./Assets/Images/CodeTyping.svg" />
+  <link rel="preload" href="./Assets/Fonts/truculenta-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./Assets/Fonts/truculenta-webfont.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="./Assets/Fonts/syne-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./Assets/Fonts/syne-webfont.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="./Assets/Images/topography.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./Style/index.min.css" as="style">
+  <link rel="preload" href="./Script/script.min.js" as="script">
+  <link rel="preload" href="./Script/canvas-nest.min.js" as="script">
+  <link rel="stylesheet" href="./Style/index.min.css" />
+  <link rel="preconnect" href="https://drish-xd.is-a.dev/Portfolio" />
+  <link rel="prerender" href="https://drish-xd.is-a.dev/Portfolio" />
+  <link rel="dns-prefetch" href="https://drish-xd.is-a.dev/Portfolio" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- cache Control -->
+  <meta http-equiv="cache-control" content="Private" />
+  <meta http-equiv="Expires" content="600" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZCG5DMRF9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <div id="Contact" class="Contact">
-      <h2>Contact Me</h2>
-      <p>This is the content for the Contact page.</p>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-PZCG5DMRF9");
+  </script>
+  <title>Drish | Portfolio</title>
+</head>
+
+<body oncontextmenu="return false">
+  <!-- container  -->
+
+  <section class="mainpage">
+    <div class="welcome-section content-hidden">
+      <div class="content-wrap">
+        <ul class="fly-in-hello">
+          <li class="hello-h">H</li>
+          <li>E</li>
+          <li>L</li>
+          <li>L</li>
+          <li>O</li>
+          <li class="extraspace">&nbsp;</li>
+        </ul>
+        <ul class="fly-in-there">
+          <li>T</li>
+          <li>H</li>
+          <li>E</li>
+          <li>R</li>
+          <li>E</li>
+          <li>!</li>
+        </ul>
+      </div>
+
+      <a class="enter-button">ENTER</a>
     </div>
-  </body>
+  </section>
+
+  <!-- scripting -->
+
+  <script>
+    // text animation onload
+
+    $(function () {
+      var welcomeSection = $(".welcome-section"),
+        enterButton = welcomeSection.find(".enter-button");
+
+      setTimeout(function () {
+        welcomeSection.removeClass("content-hidden");
+      }, 800);
+
+      // text animation on change
+
+      enterButton.on('click', function (event) {
+        event.preventDefault();
+        welcomeSection.addClass("content-hidden");
+        setTimeout(function () {
+          window.location = "C:\Users\ankus\Desktop\portfolio\Portfolio";
+        }, 2000);
+      });
+    });
+  </script>
+
+  <script color="159, 239, 0" opacity="1" count="300" src="./Script/canvas-nest.min.js"></script>
+</body>
+
 </html>
