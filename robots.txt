@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /Assets/
-
-Sitemap: https://drish-xd.is-a.dev/sitemap
