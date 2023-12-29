@@ -1,7 +1,7 @@
 /* Importing Fonts */
 @font-face {
-    font-family: "Syne";
-    src: url(../Assets/Fonts/syne-webfont.woff2) format("woff2"), url(../Assets/Fonts/syne-webfont.woff) format("woff");
+    font-family: "Gothic";
+    src: url(../Assets/Fonts/DotGothic16-Regular.ttf) format("woff");
 }
 
 @font-face {
@@ -63,9 +63,10 @@ body {
 
 .content-wrap {
     font-family: "Truculenta";
-    font-size: 120px;
+    font-size: 170px;
     color: #f1f1f1;
     display: inline-flex;
+    text-size-adjust:initial;
 }
 
 .fly-in-hello li,
@@ -81,7 +82,7 @@ body {
 }
 
 .enter-button {
-    font-family: "Syne";
+    font-family: "Truculenta";
     display: block;
     text-align: center;
     font-size: 1.7rem;

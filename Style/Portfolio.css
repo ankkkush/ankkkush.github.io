@@ -256,7 +256,7 @@ h2 {
   font-family: "Syne";
   padding: 80px 0 25px;
   text-align: left;
-  color: #7e57c2;
+  color: #32d27e;
   font-size: 70px;
   letter-spacing: 5mm;
 }
@@ -339,7 +339,7 @@ h2 {
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: linear-gradient(25deg, #7e57c2, #a987e2);
+  background: linear-gradient(25deg, #32d27e, #a987e2);
 }
 
 .bar .progress-line span[data-scroll="in"] {
@@ -349,33 +349,11 @@ h2 {
 .bar .progress-line.Html-css span {
   width: 95%;
 }
-
-.bar .progress-line.Reactjs span {
-  width: 90%;
-}
-
-.bar .progress-line.Nextjs span {
-  width: 80%;
-}
-
 .bar .progress-line.Python span {
   width: 75%;
 }
-
-.bar .progress-line.Redux span {
-  width: 75%;
-}
-
-.bar .progress-line.Flutter span {
-  width: 55%;
-}
-
-.bar .progress-line.Native span {
+.bar .progress-line.c span {
   width: 45%;
-}
-
-.bar .progress-line.vue span {
-  width: 25%;
 }
 
 .bar .progress-line.sql span {
@@ -480,9 +458,17 @@ h2 {
 .project h3 {
   display: block;
   font: 600 30px "Syne";
-  color: #8a62cf;
+  color: #32d27e;
   letter-spacing: 0.15rem;
   text-align: center;
+  word-wrap: break-word;
+}
+.Certifications {
+  display: block;
+  font: 300 20px "FiraCode";
+  color: white;
+  letter-spacing: 0.15rem;
+  text-align: left;
   word-wrap: break-word;
 }
 
@@ -492,16 +478,6 @@ h2 {
   line-height: 9mm;
   padding: 10px 0;
   word-break: break-word;
-}
-
-.project:last-child p {
-  text-align: center;
-}
-
-.project .btn {
-  display: flex;
-  bottom: 1px;
-  justify-content: center;
 }
 
 .project:first-child .btn {
@@ -514,7 +490,7 @@ h2 {
   letter-spacing: 0.15rem;
   background-color: #243038b3;
   border-radius: 50px;
-  border: 2px solid #7e57c2;
+  border: 2px solid #32d27e;
   color: #f1f1f1;
   padding: 5px 20px;
   cursor: pointer;
@@ -524,16 +500,6 @@ h2 {
 .project-section a:hover {
   box-shadow: inset 0 0 10px 20px #7e56c2b3;
   color: #0c0c0c;
-}
-
-.more-projects {
-  display: block;
-  text-align: center;
-  margin: 3rem auto auto;
-}
-
-.more-projects a {
-  font: 600 2rem "Syne";
 }
 
 /*Contacts Section*/
@@ -743,7 +709,9 @@ footer {
   .skill-bars .bar .info span {
     font-size: 17px;
   }
-
+  .Certifications {
+    font-size: 20px;
+  }
   .progress-line span::after {
     font-size: 12px;
   }
