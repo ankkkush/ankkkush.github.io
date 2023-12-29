@@ -400,23 +400,6 @@ h2 {
   }
 }
 
-/* Github Stats  */
-.stats-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.stats-box img {
-  width: 80%;
-  height: auto;
-  margin: 30px;
-  border-radius: 25px;
-  backdrop-filter: blur(0.5px);
-}
-
 /* Projects Section*/
 
 .projects-list {
@@ -448,7 +431,7 @@ h2 {
 }
 
 .project:last-child {
-  grid-column: 1 / 3;
+  grid-column: 1 / 2;
 }
 
 @media screen and (max-width: 703px) {
@@ -464,6 +447,7 @@ h2 {
   letter-spacing: 0.15rem;
   text-align: center;
   word-wrap: break-word;
+  padding-bottom:1cm;
 }
 .Certifications {
   display: block;
