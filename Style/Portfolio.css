@@ -365,6 +365,9 @@ h2 {
 .bar .progress-line.JS span {
   width: 85%;
 }
+.bar .progress-line.php span {
+  width: 40%;
+}
 
 .progress-line span::before {
   position: absolute;
@@ -419,6 +422,22 @@ h2 {
   padding: 25px;
 }
 
+.exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #25313999;
+  backdrop-filter: blur(0.5px);
+  border-radius: 25px;
+  padding: 25px;
+}
+.exps-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2.5rem;
+  overflow: hidden;
+}
+
 .frontend {
   display: flex;
   flex-wrap: wrap;
@@ -433,9 +452,17 @@ h2 {
 .project:last-child {
   grid-column: 1 / 2;
 }
+.exp:last-child {
+  grid-column: 1 / 2;
+}
 
 @media screen and (max-width: 703px) {
   .project:last-child {
+    grid-column: 1;
+  }
+}
+@media screen and (max-width: 703px) {
+  .exp:last-child {
     grid-column: 1;
   }
 }
@@ -448,6 +475,31 @@ h2 {
   text-align: center;
   word-wrap: break-word;
   padding-bottom:1cm;
+}
+.exp h {
+  display: block;
+  font: 600 30px "Syne";
+  color: #32d27e;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  word-wrap: break-word;
+  padding-bottom:1cm;
+}
+.exp h1 {
+  display: block;
+  font: 400 20px "Syne";
+  color: #32d27e;
+  letter-spacing: 0.15rem;
+  text-align: left;
+  word-wrap: break-word;
+  padding-bottom:1cm;
+}
+.exp p {
+  font: 300 20px "FiraCode";
+  text-align: justify;
+  line-height: 9mm;
+  padding: 10px 0;
+  word-break: break-word;
 }
 .Certifications {
   display: block;
@@ -469,6 +521,9 @@ h2 {
 .project:first-child .btn {
   justify-content: space-between;
 }
+.exp:first-child .btn {
+  justify-content: space-between;
+}
 
 .project-section a {
   font: 600 18px "Syne";
@@ -482,8 +537,24 @@ h2 {
   cursor: pointer;
   transition: box-shadow 0.3s, color 0.35s;
 }
+.exp-section a {
+  font: 600 18px "Syne";
+  text-decoration: none;
+  letter-spacing: 0.15rem;
+  background-color: #243038b3;
+  border-radius: 50px;
+  border: 2px solid #32d27e;
+  color: #f1f1f1;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: box-shadow 0.3s, color 0.35s;
+}
 
 .project-section a:hover {
+  box-shadow: inset 0 0 10px 20px #7e56c2b3;
+  color: #0c0c0c;
+}
+.exp-section a:hover {
   box-shadow: inset 0 0 10px 20px #7e56c2b3;
   color: #0c0c0c;
 }
@@ -713,6 +784,18 @@ footer {
   }
 
   .project-section a {
+    font-size: 20px;
+  }
+  .exp h3 {
+    font: 27px "Syne";
+    letter-spacing: normal;
+  }
+
+  .exp p {
+    font-size: 20px;
+  }
+
+  .exp-section a {
     font-size: 20px;
   }
 
